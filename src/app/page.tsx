@@ -7,7 +7,7 @@ export default function Home() {
       <Container size="1">
         <Flex direction="column">
           <Heading>Coding Issue Tracker</Heading>
-          <Text color="brown">Find issues related to your specific project</Text>
+          <Text color="gray">Find issues related to your specific project</Text>
         </Flex>
       </Container>
     </main>
