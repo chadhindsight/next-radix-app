@@ -1,8 +1,43 @@
 import Image from 'next/image'
 import { Badge, Card, Container, Flex, Heading, Text } from '@radix-ui/themes';
 import { ChatBubbleIcon } from '@radix-ui/react-icons';
+import { userIssues } from './utils/userIssues';
+import { ReactNode } from 'react';
 
+interface userIssueProps {
+  issueTitle: string,
+  badgeText: string,
+  issueDetails: string,
+  issueComments: string
+}
 export default function Home() {
+
+  const displayCards = (issues: userIssueProps[]): ReactNode => (
+    issues.map(issue => {
+      const { issueTitle, badgeText, issueDetails, issueComments } = issue;
+
+      return (
+        <Card key={issue.issueTitle}>
+          <Flex gap="1" direction="column">
+            <Text>{issueTitle}</Text>
+            <Flex gap="2">
+              <Badge color="orange">{badgeText}</Badge>
+            </Flex>
+            <Text>
+              {issueDetails}
+            </Text>
+            <Flex justify="between" pt="1">
+              <Flex align="center"> {/* align icon to our text */}
+                <ChatBubbleIcon />
+                <Text color="gray" ml="2" size="1">{issueComments}</Text>
+              </Flex>
+            </Flex>
+          </Flex>
+        </Card>
+      );
+    })
+  )
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Container size="1">
@@ -29,7 +64,7 @@ export default function Home() {
               </Flex>
             </Flex>
           </Card>
-
+          {displayCards(userIssues)}
         </Flex>
       </Container>
     </main>
