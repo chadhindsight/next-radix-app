@@ -20,6 +20,6 @@ export const userIssues = [
         issueTitle: "Issue #26 - User Information Is Doubled Instead Of Single",
         badgeText: "Frontend",
         issueDetails: "Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        issueComments: 8
+        issueComments: 1
     }
 ]
