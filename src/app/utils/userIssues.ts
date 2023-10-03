@@ -11,15 +11,15 @@ export const userIssues = [
         issueComments: 7
     },
     {
-        issueTitle: "Issue #26 - Price displayed is incorrect",
+        issueTitle: "Issue #25 - Price displayed is incorrect",
         badgeText: "Fullstack",
         issueDetails: "Users keep seeing 'lorem ipsum' instead of the actual price of the product.",
         issueComments: 4
     },
     {
-        issueTitle: "Issue #25 - User Information Is Doubled Instead Of Single",
+        issueTitle: "Issue #26 - User Information Is Doubled Instead Of Single",
         badgeText: "Frontend",
         issueDetails: "Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        issueComments: 1
+        issueComments: 8
     }
 ]
