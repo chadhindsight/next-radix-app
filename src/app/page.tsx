@@ -29,7 +29,9 @@ export default function Home() {
             <Flex justify="between" pt="1">
               <Flex align="center"> {/* align icon to our text */}
                 <ChatBubbleIcon />
-                <Text color="gray" ml="2" size="1">{issueComments} comments</Text>
+                <Text color="gray" ml="2" size="1">{
+                  issueComments > 1 ? `${issueComments} Comments` : `${issueComments} Comment`}
+                </Text>
               </Flex>
             </Flex>
           </Flex>
