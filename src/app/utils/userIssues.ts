@@ -17,7 +17,7 @@ export const userIssues = [
         issueComments: 4
     },
     {
-        issueTitle: "Issue #26 - User Information Is Doubled Instead Of Single",
+        issueTitle: "Issue #26 - User Information Is Doubled Instead Of being Displayed Only Once.",
         badgeText: "Frontend",
         issueDetails: "Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         issueComments: 1
