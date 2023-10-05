@@ -1,8 +1,3 @@
-// issueTitle: string,
-//     badgeText: string,
-//         issueDetails: string,
-//             comments: string
-
 export const userIssues = [
     {
         issueTitle: "Issue #24 - Button Is Wrong Color",
