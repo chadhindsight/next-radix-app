@@ -2,7 +2,7 @@ export const userIssues = [
     {
         issueTitle: "Issue #24 - Button Is Wrong Color",
         badgeText: "Backend",
-        issueDetails: "Users are consistently experiencing a problem where the button color on the application's interface appears to be incorrect. This issue has been reported multiple times and requires immediate attention.",
+        issueDetails: "Users are consistently experiencing a problem where the button color on the application's interface appears to be incorrect. This issue has been reported multiple times and requires immediate attention!",
         issueComments: 7
     },
     {
