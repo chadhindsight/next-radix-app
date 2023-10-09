@@ -16,5 +16,11 @@ export const userIssues = [
         badgeText: "Frontend",
         issueDetails: "Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         issueComments: 1
-    }
+    },
+    {
+        issueTitle: "Issue #27 - New features should be rolled out to only 10% of users in experiment.",
+        badgeText: "Mobile",
+        issueDetails: "Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        issueComments: 1
+    },
 ]
